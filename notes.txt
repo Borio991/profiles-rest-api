@@ -1,0 +1,4 @@
+# start new server vagrant
+
+vagrant init ubuntu/bionic64
+
