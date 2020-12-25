@@ -1,4 +1,23 @@
 # start new server vagrant
 
+# create server
 vagrant init ubuntu/bionic64
+
+# start  server
+vagrant up
+
+# connect to the server
+vagrant ssh
+
+
+@ install pip in ububtu
+sudo apt-get install software-properties-common
+sudo apt-add-repository universe
+sudo apt-get update
+sudo apt-get install python-pip
+
+#install pipenv in ubuntu
+$ sudo pip install pipenv
+
+
 
